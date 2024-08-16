@@ -1,2 +1,5 @@
 .idea
 vendor
+out/salary_dates.csv
+.php-cs-fixer.cache
+.phpunit.result.cache

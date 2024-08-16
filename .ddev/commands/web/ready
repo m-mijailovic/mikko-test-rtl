@@ -1,0 +1,11 @@
+#!/bin/bash
+## Description: Lil' ol' ready message
+## Usage: ready
+## Example: "ddev ready"
+GREEN="\e[32m"
+ENDCOLOR="\e[0m"
+
+printf "Containers are ready 🚀\n"
+echo -e "To run the console app, please run ${GREEN}ddev mikko-run${ENDCOLOR}"
+echo -e "To run the tests, please run ${GREEN}ddev mikko-tests${ENDCOLOR}"
+echo -e "To run the grumphp suite, please run ${GREEN}ddev mikko-grumpphp${ENDCOLOR}"

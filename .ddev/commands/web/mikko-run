@@ -1,0 +1,7 @@
+#!/bin/bash
+
+## Description: Run the console application
+## Usage: mikko-run [flags] [args]
+## Example: "ddev mikko-run"
+
+php app.php app:mikko $@

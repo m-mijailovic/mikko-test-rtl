@@ -1,0 +1,7 @@
+#!/bin/bash
+
+## Description: Run the grumphp suite
+## Usage: mikko-grumphp
+## Example: "ddev mikko-grumphp"
+
+./vendor/bin/grumphp run

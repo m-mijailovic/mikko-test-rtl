@@ -1,0 +1,7 @@
+#!/bin/bash
+
+## Description: Run the unit tests
+## Usage: mikko-tests
+## Example: "ddev mikko-tests"
+
+php app.php app:mikko

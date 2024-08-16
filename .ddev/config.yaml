@@ -16,6 +16,13 @@ corepack_enable: false
 omit_containers:
     - db
 
+hooks:
+    pre-start:
+        - exec-host: "sh .ddev/commands/web/welcome"
+    post-start:
+        - exec: composer install
+        - exec-host: "sh .ddev/commands/web/ready"
+
 # Key features of DDEV's config.yaml:
 
 # name: <projectname> # Name of the project, automatically provides
